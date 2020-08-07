@@ -53,7 +53,7 @@ To train AC-VRNN use models/graph/train_sdd.py on SDD.
 To evaluate the model call utils/evaluate_model.py setting the correct paths, and load the dataset you want to test.
 
 ## Cite
-If you have any questions, [alessia.bertugli@unimore.it](mailto:alessia.bertugli@unimore.it), or open an issue on this repo. 
+If you have any questions, [alessia.bertugli@unitn.it](mailto:alessia.bertugli@unitn.it)  or [alessia.bertugli@unimore.it](mailto:alessia.bertugli@unimore.it), or open an issue on this repo. 
 
 If you find this repository useful for your research, please cite the following paper:
 ```bibtex
