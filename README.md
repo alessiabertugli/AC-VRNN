@@ -28,12 +28,11 @@ A) SGAN/STAGT dataset version.
 
 B) SR_LSTM version (only Biwi Eth annotations are changed).
 
-C) Social Ways version --> to obtain the dataset take Social-Ways data and use dataset_processing/process_sways.py
-   to process the data for this code.
+C) Social Ways version --> to obtain the dataset take Social-Ways data and use dataset_processing/process_sways.py to process the data for this code.
 
 2. SDD
 
-Download TrajNet benchmark, take training data and use dataset_processing/split_sdd.py to process the data for this code.
+Download *<a href="http://trajnet.stanford.edu"> TrajNet </a>* benchmark, take training data and use dataset_processing/split_sdd.py to process the data for this code.
 
 
 ## Belief Maps
