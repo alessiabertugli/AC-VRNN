@@ -25,30 +25,35 @@ AC-VRNN is new generative model for multi-future trajectory prediction based on 
 1. ETH/UCY DATSETS
 
 A) SGAN/STAGT dataset version.
+
 B) SR_LSTM version (only Biwi Eth annotations are changed).
+
 C) Social Ways version --> to obtain the dataset take Social-Ways data and use dataset_processing/process_sways.py
    to process the data for this code.
 
 2. SDD
 
-Download TrajNet benchmark, take training data and use dataset_processing/split_sdd.py to process the data for this code
+Download TrajNet benchmark, take training data and use dataset_processing/split_sdd.py to process the data for this code.
 
 
 ## Belief Maps
 
 To obtain belief maps for each dataset use dataset_processing/heatmap.py. Two stages are required:
 1. Generate statistics to compute the coarse of the global grid.
-   They are obtained calling compute_mean_displacement_[dataset_name] function
-2. Generate belief maps for each dataset calling compute_local_heatmaps_[dataset_name]
+   They are obtained calling compute_mean_displacement_[dataset_name] function.
+2. Generate belief maps for each dataset calling compute_local_heatmaps_[dataset_name].
 
 ## Training the model
 To train AC-VRNN use models/graph/train.py on ETH/UCY A and B giving it the correct paths. Set model='gat'.
+
 To train AC-VRNN use models/graph/train_dsways.py on ETH/UCY C. Set model='gat'.
+
 To train AC-VRNN use models/graph/train_sdd.py on SDD.
 
 ## Evaluating the model
-To evaluate the model call utils/evaluate_model.py setting the correct paths and loader the dataset you want to test
-Load the corresponding checkpoint from best_model folder
+To evaluate the model call utils/evaluate_model.py setting the correct paths and loader the dataset you want to test.
+
+Load the corresponding checkpoint from best_model folder.
 
 ## Cite
 If you have any questions, [alessia.bertugli@unimore.it](mailto:alessia.bertugli@unimore.it), or open an issue on this repo. 
