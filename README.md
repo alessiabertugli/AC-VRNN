@@ -53,17 +53,16 @@ To train AC-VRNN use models/graph/train_sdd.py on SDD.
 ## Evaluating the model
 To evaluate the model call utils/evaluate_model.py setting the correct paths and loader the dataset you want to test.
 
-Load the corresponding checkpoint from best_model folder.
-
 ## Cite
 If you have any questions, [alessia.bertugli@unimore.it](mailto:alessia.bertugli@unimore.it), or open an issue on this repo. 
 
 If you find this repository useful for your research, please cite the following paper:
 ```bibtex
-@proceedings{abertugli2020ac-vrnn,
-    title={DAG-Net: Double Attentive Graph Neural Network for Trajectory Forecasting},
-    author={Alessia Bertugli and Simone Calderara and Pasquale Coscia and Lamberto Ballan and Rita Cucchiara},
-    booktitle = {arxiv},
-    year={2020}
+@article{Bertugli2020ac-vrnn,
+  title={AC-VRNN: Attentive Conditional-VRNN for Multi-Future Trajectory Prediction},
+  author={Alessia Bertugli and Simone Calderara and Pasquale Coscia and Lamberto Ballan and Rita Cucchiara},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2005.08307}
 }
 ```
