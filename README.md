@@ -50,7 +50,7 @@ To train AC-VRNN use models/graph/train_dsways.py on ETH/UCY C. Set model='gat'.
 To train AC-VRNN use models/graph/train_sdd.py on SDD.
 
 ## Evaluating the model
-To evaluate the model call utils/evaluate_model.py setting the correct paths and loader the dataset you want to test.
+To evaluate the model call utils/evaluate_model.py setting the correct paths, and load the dataset you want to test.
 
 ## Cite
 If you have any questions, [alessia.bertugli@unimore.it](mailto:alessia.bertugli@unimore.it), or open an issue on this repo. 
