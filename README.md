@@ -1,5 +1,5 @@
 # AC-VRNN: Attentive Conditional-VRNN for Multi-Future Trajectory Prediction
-This repository contains the PyTorch code for https://arxiv.org/abs/2005.08307 paper:
+This repository contains the PyTorch code for paper:
 
 **<a href="https://arxiv.org/abs/2005.08307">AC-VRNN: Attentive Conditional-VRNN for Multi-Future Trajectory Prediction</a>**  
 *<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=110">Alessia Bertugli</a>,
