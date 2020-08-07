@@ -4,8 +4,8 @@ This repository contains the PyTorch code for https://arxiv.org/abs/2005.08307 p
 **<a href="https://arxiv.org/abs/2005.08307">AC-VRNN: Attentive Conditional-VRNN for Multi-Future Trajectory Prediction</a>**  
 *<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=110">Alessia Bertugli</a>,
 <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=38">Simone Calderara</a>,
-<a Pasquale Coscia</a>,
-<a Lamberto Ballan</a>,
+Pasquale Coscia,
+Lamberto Ballan,
 <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Rita Cucchiara</a>*  
 
 ## Model architecture
@@ -22,14 +22,14 @@ AC-VRNN is new generative model for multi-future trajectory prediction based on 
 
 ## Datasets
 
-ETH/UCY DATSETS
+1. ETH/UCY DATSETS
 
-A) SGAN/STAGT dataset version
-B) SR_LSTM version (only Biwi Eth annotations are changed)
+A) SGAN/STAGT dataset version.
+B) SR_LSTM version (only Biwi Eth annotations are changed).
 C) Social Ways version --> to obtain the dataset take Social-Ways data and use dataset_processing/process_sways.py
-   to process the data for this code
+   to process the data for this code.
 
-SDD
+2. SDD
 
 Download TrajNet benchmark, take training data and use dataset_processing/split_sdd.py to process the data for this code
 
@@ -42,9 +42,9 @@ To obtain belief maps for each dataset use dataset_processing/heatmap.py. Two st
 2. Generate belief maps for each dataset calling compute_local_heatmaps_[dataset_name]
 
 ## Training the model
-To train AC-VRNN use models/graph/train.py on ETH/UCY A and B giving it the correct paths. Set model='gat'
-To train AC-VRNN use models/graph/train_dsways.py on ETH/UCY C. Set model='gat'
-To train AC-VRNN use models/graph/train_sdd.py on SDD
+To train AC-VRNN use models/graph/train.py on ETH/UCY A and B giving it the correct paths. Set model='gat'.
+To train AC-VRNN use models/graph/train_dsways.py on ETH/UCY C. Set model='gat'.
+To train AC-VRNN use models/graph/train_sdd.py on SDD.
 
 ## Evaluating the model
 To evaluate the model call utils/evaluate_model.py setting the correct paths and loader the dataset you want to test
