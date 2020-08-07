@@ -4,8 +4,8 @@ This repository contains the PyTorch code for https://arxiv.org/abs/2005.08307 p
 **<a href="https://arxiv.org/abs/2005.08307">AC-VRNN: Attentive Conditional-VRNN for Multi-Future Trajectory Prediction</a>**  
 *<a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=110">Alessia Bertugli</a>,
 <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=38">Simone Calderara</a>,
-Pasquale Coscia,
-Lamberto Ballan,
+<a href="https://sites.google.com/view/pasqualecoscia"> Pasquale Coscia</a>,
+<a href="http://www.lambertoballan.net">Lamberto Ballan</a>,
 <a href="https://aimagelab.ing.unimore.it/imagelab/person.asp?idpersona=1">Rita Cucchiara</a>*  
 
 ## Model architecture
