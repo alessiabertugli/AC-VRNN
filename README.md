@@ -11,7 +11,7 @@ This repository contains the PyTorch code for paper:
 ## Model architecture
 AC-VRNN is new generative model for multi-future trajectory prediction based on Conditional Variational Recurrent Neural Networks (C-VRNNs). Conditioning relies on prior belief maps, representing most likely moving directions and forcing the model to consider the collective agents’ motion. Human interactions are modeled in a structured way with a graph attention mechanism, providing an online attentive hidden state refinement of the recurrent estimation.
 
-![ac-vrnn - overview](model_img.png)
+![ac-vrnn - overview](model_img.pdf)
 
 ## Prerequisites
 
