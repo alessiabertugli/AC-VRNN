@@ -58,14 +58,13 @@ If you have any questions,  please contact [alessia.bertugli@unitn.it](mailto:al
 If you find this repository useful for your research, please cite the following paper:
 ```bibtex
 @article{Bertugli2021,
-title = {AC-VRNN: Attentive Conditional-VRNN for multi-future trajectory prediction},
-journal = {Computer Vision and Image Understanding},
-pages = {103245},
-year = {2021},
-issn = {1077-3142},
-doi = {https://doi.org/10.1016/j.cviu.2021.103245},
-url = {https://www.sciencedirect.com/science/article/pii/S1077314221000898},
-author = {Alessia Bertugli and Simone Calderara and Pasquale Coscia and Lamberto Ballan and Rita Cucchiara},
-keywords = {Trajectory forecasting, Multi-future prediction, Time series, Variational recurrent neural networks, Graph attention networks}
-}
+   title = {AC-VRNN: Attentive Conditional-VRNN for multi-future trajectory prediction},
+   journal = {Computer Vision and Image Understanding},
+   pages = {103245},
+   year = {2021},
+   issn = {1077-3142},
+   doi = {https://doi.org/10.1016/j.cviu.2021.103245},
+   url = {https://www.sciencedirect.com/science/article/pii/S1077314221000898},
+   author = {Alessia Bertugli and Simone Calderara and Pasquale Coscia and Lamberto Ballan and Rita Cucchiara},
+   keywords = {Trajectory forecasting, Multi-future prediction, Time series, Variational recurrent neural networks, Graph attention networks}}
 ```
